@@ -1,0 +1,167 @@
+@include block ('intro') {
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  height: 100vh;
+  position: relative;
+
+  @include modifier ('no-height') {
+    height: auto !important;
+  }
+
+  @include modifier ('phpday') {
+    background-color: $color-background-info;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+
+  @include media ('<mobile-large') {
+    height: 250px;
+    margin-top: 50px;
+  }
+
+  @include media ('>=mobile-large') {
+    height: 100vh;
+    margin-top: 20px;
+  }
+
+  @include media ('>=tablet-small') {
+    height: 430px;
+  }
+
+  @include media ('>=tablet-large') {
+    height: 750px;
+  }
+
+  @include media ('>=desktop-large') {
+    height: 100vh;
+  }
+
+  @include element ('title') {
+    font-family: $font-family-header;
+    font-size: 38px;
+    color: $color-text-action;
+    text-shadow: 5px 5px 10px #222;
+
+    margin-top: s(4);
+
+
+    @include media ('>=mobile-large') {
+      font-size: 60px;
+      margin-top: s(7);
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 70px;
+      margin-top: s(9);
+    }
+
+    @include media ('>=tablet-large') {
+      font-size: 90px;
+      margin-top: s(35);
+    }
+
+    @include media ('>=desktop-large') {
+      font-size: 90px;
+      margin-top: s(50);
+    }
+  }
+
+  @include element ('titlepage') {
+    font-family: $font-family-header;
+    font-size: 38px;
+    //color: $color-text-action;
+    margin-top: s(10);
+/*
+
+    @include media ('>=mobile-large') {
+      font-size: 60px;
+      margin-top: s(7);
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 70px;
+      margin-top: s(9);
+    }
+
+    @include media ('>=tablet-large') {
+      font-size: 90px;
+      margin-top: s(35);
+    }
+
+    @include media ('>=desktop-large') {
+      font-size: 90px;
+      margin-top: s(50);
+    }*/
+  }
+
+  @include element ('where-when') {
+    @include where-when;
+    font-size: 40px;
+    color: $color-text-action;
+    text-shadow: 5px 5px 10px #222;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    margin-top: 10px;
+
+    @include media ('<tablet-small') {
+      font-size: 20px;
+    }
+
+    @include media ('>=tablet-small') {
+      font-size: 30px;
+    }
+  }
+
+  @include element ('register') {
+    background-color: $color-background-action;
+    bottom: s(-13);
+    color: $color-text-action;
+    display: block;
+    font-family: $font-family-header;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: s(9);
+    padding: s(2) s(4);
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.25s ease-out;
+    width: 50%;
+
+    &:hover {
+      background-color: lighten($color-background-action, 5%);
+    }
+
+    @include modifier ('sold-out') {
+      &:hover {
+        background-color: $color-background-action;
+
+        @include media ('>=tablet-large') {
+          &::after {
+            color: $color-text;
+            content: 'maybe next time!';
+          }
+        }
+      }
+    }
+
+    @include media ('<desktop-small') {
+      text-align: center;
+      width: 100%;
+
+      @include element ('icon') {
+        display: none;
+      }
+    }
+  }
+
+  @include element ('icon') {
+    float: left;
+    font-size: 40px;
+    position: relative;
+    transition: left 0.125s ease-out;
+  }
+}

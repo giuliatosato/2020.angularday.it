@@ -1,0 +1,10 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+#list:
+#  -
+#    id: sam-bellen
+#    description:
+#    image: sam-bellen.jpg
+#    first_name: Sam
+#    last_name: Bellen
+#    twitter: sambego

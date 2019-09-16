@@ -1,0 +1,26 @@
+<tr>
+  <td class="schedule__cell schedule__cell--time">
+    <span class="schedule__time">
+      {{ include.time }}
+    </span>
+    <span class="schedule__on-air">
+      {% if include.title == 'Check-in' %}
+        welcome
+      {% else %}
+        on air
+      {% endif %}
+    </span>
+  </td>
+  <td class="schedule__cell schedule__cell--event" {% if include.fill %} colspan="3" {% endif %}>
+    <div class="schedule__title">
+      {{ include.title }}
+      <div class="schedule__detail">
+        {% if include.name %}
+          <span class="schedule__speaker">
+            {{ include.name }}
+          </span>
+        {% endif %}
+      </div>
+    </div>
+  </td>
+</tr>

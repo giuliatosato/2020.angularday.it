@@ -1,0 +1,12 @@
+# place images in:
+# img/conf-name/community/file.jpg
+
+list:
+  -
+    name: AngularFinland
+    image: angular_finland.svg
+    site: http://angular.fi/
+  -
+    name: AngularOslo
+    image: angular-oslo.svg
+    site: https://twitter.com/AngularOslo

@@ -1,0 +1,116 @@
+<div role="menubar" id="menu" class="menu" tabindex="-1">
+
+  <div class="menu__left">
+    <div class="menu__conf">
+      <div class="menu__conf-name">
+        {{ site.data.conference.name }} {{ site.data.conference.year }}
+      </div>
+      <div class="menu__conf-logo">
+        <img class="menu__conf-logo-image" src="{{ site.baseurl }}/img/themes/{{ site.data.conference.slug }}/{{ site.data.conference.slug }}-logo.svg">
+      </div>
+    </div>
+    <div class="menu__footer">
+      <a href="{{ site.data.venue.map }}" target="_blank" class="menu__where-when">
+        {{ site.data.conference.where_when }}
+      </a>
+      {% if site.data.tickets.available %}
+        {% if site.data.tickets.sold_out %}
+          <div class="menu__register menu__register--sold-out">
+            sold-out
+          </div>
+        {% else %}
+          <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__register">
+            Get<br>
+            your ticket<br>
+            now
+          </a>
+        {% endif %}
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="menu__right">
+    <div class="menu__cancel">
+      <i id="menu-cancel" class="icon-cancel"></i>
+    </div>
+
+    <nav>
+      <ul class="menu__list">
+        {% if site.data.conference.schedule_available %}
+          <li class="menu__item">
+            <a href="{{ site.baseurl }}/schedule.html" class="menu__button" role="menuitem">
+              Schedule
+            </a>
+          </li>
+        {% endif %}
+        <li class="menu__item">
+          {% if site.data.tickets.available %}
+            {% if site.data.tickets.sold_out %}
+              <span class="menu__button menu__button--sold-out">
+                Sold-out
+              </span>
+            {% else %}
+              <a href="{{ site.data.tickets.url }}" target="_blank" class="menu__button" role="menuitem">
+                Tickets
+              </a>
+            {% endif %}
+          {% endif %}
+        </li>
+        {% if site.data.conference.call_for_paper %}
+        <li class="menu__item">
+          <a href="https://goo.gl/forms/JbHdo1AFYChfzSol2" class="menu__button" role="menuitem" target="_blank">
+            Call for papers
+          </a>
+        </li>
+        {% endif %}
+        <li class="menu__item">
+          <a href="{{ site.baseurl }}/coc.html" class="menu__button" role="menuitem">
+            Code Of Conduct
+          </a>
+        </li>
+        {% if site.data.conference.training_available %}
+        <li class="menu__item">
+          <a href="{{ site.baseurl }}/training.html" class="menu__button" role="menuitem">
+            Course
+          </a>
+        </li>
+        {% endif %}
+        {% if site.data.conference.call_for_sponsor %}
+        <li class="menu__item">
+          <a href="{{ site.baseurl }}/sponsor.html" class="menu__button" role="menuitem">
+            Sponsors
+          </a>
+        </li>
+        {% endif %}
+        {% if site.data.conference.talks_available %}
+          <li class="menu__item">
+            <a href="{{ site.baseurl }}/talks.html" class="menu__button" role="menuitem">
+              Talks
+            </a>
+          </li>
+        {% endif %}
+        <li class="menu__item">
+          <a href="{{ site.baseurl }}/venue.html" class="menu__button" role="menuitem">
+            Venue
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="{{ site.baseurl }}/#newsletter" class="menu__button" role="menuitem">
+            Newsletter
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="http://{{ site.data.conference.year }}.jsday.it" target="_blank" class="menu__button" role="menuitem">
+            jsDay
+          </a>
+        </li>
+        <li class="menu__item">
+          <a href="http://{{ site.data.conference.year }}.reactjsday.it" target="_blank" class="menu__button" role="menuitem">
+            ReactJS day
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+</div>

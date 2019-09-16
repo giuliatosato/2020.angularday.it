@@ -1,0 +1,24 @@
+name: angularday
+og_image: https://2020.angularday.it/img/themes/angularday/intro-share.jpg
+slug: angularday
+url: https://2020.angularday.it
+where_when: "Verona <br>June 11th: course <br>June 12th: conference"
+year: 2020
+since: 2017
+call_for_paper_url: https://forms.gle/xbSKUQciKNua4Ekq9
+call_for_paper: true
+call_for_sponsor: true
+talks_available: false
+schedule_available: false
+training_available: false
+
+iubenda:
+  cookiePolicyId: 37246326
+  siteId: 1100245
+  lang: it
+  enableRemoteConsent: true
+  localConsentDomain: angularday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-KKVG635

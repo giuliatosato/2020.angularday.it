@@ -1,0 +1,75 @@
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.data.conference.google.tag_manager_id }}"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<header class="header">
+  <div class="limit">
+    <div class="header__row">
+      <a href="{{ site.baseurl }}/" class="header__logo">
+        <img class="header__logo-image" src="{{ site.baseurl }}/img/themes/{{ site.data.conference.slug }}/{{ site.data.conference.slug }}-logo.svg">
+      </a>
+      <h1 class="header__conf-name">
+        {{ site.data.conference.name }} {{ site.data.conference.year }}
+      </h1>
+      <nav class="header__menu">
+        <button id="open-menu" class="button button--menu" aria-controls="menu" aria-expanded="false" aria-haspopup="true" aria-label="Aziona navigazione">
+          <i class="icon-minus"></i>
+          <i class="icon-minus"></i>
+          <i class="icon-minus"></i>
+        </button>
+
+        <div role="menubar" class="header__menu-desktop">
+
+          {% if site.data.conference.call_for_paper %}
+          <a href="{{ site.data.conference.call_for_paper_url }}" target="_blank" class="button" role="menuitem">
+            Call for papers
+          </a>
+          {% endif %}
+
+          {% if site.data.conference.talks_available %}
+            <a href="{{ site.baseurl }}/talks.html" class="button" role="menuitem">
+              Talks
+            </a>
+          {% endif %}
+
+          {% if site.data.conference.training_available %}
+          <a href="{{ site.baseurl }}/training.html" class="button" role="menuitem">
+            Course
+          </a>
+          {% endif %}
+
+          {% if site.data.conference.schedule_available %}
+            <a href="{{ site.baseurl }}/schedule.html" class="button" role="menuitem">
+              Schedule
+            </a>
+          {% endif %}
+          <a href="{{ site.baseurl }}/venue.html" class="button" role="menuitem">
+            Venue
+          </a>
+          {% if site.data.conference.call_for_sponsor %}
+          <a href="{{ site.baseurl }}/sponsor.html" class="button button--no-tablet-small">
+            Sponsors
+          </a>
+          {% endif %}
+          <a href="{{ site.baseurl }}/coc.html" class="button button--no-tablet-small">
+            CoC
+          </a>
+
+          {% if site.data.tickets.available %}
+            {% if site.data.tickets.sold_out %}
+              <div class="button button--sold-out">
+                sold out
+              </div>
+            {% else %}
+              <a href="{{ site.data.tickets.url }}" target="_blank" class="button button--register" role="menuitem">
+                Tickets
+              </a>
+            {% endif %}
+          {% endif %}
+
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
