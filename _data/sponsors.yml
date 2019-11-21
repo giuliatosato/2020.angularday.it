@@ -79,8 +79,7 @@ silver:
   max: 16
   list:
     -
-       url: https://www.flowing.it/?utm_source=angularday
-       image: flowing.svg
+
 
 bronze:
   price: € 500
