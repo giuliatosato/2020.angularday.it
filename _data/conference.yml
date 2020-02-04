@@ -6,7 +6,7 @@ where_when: "Verona <br>June 11th: course <br>June 12th: conference"
 year: 2020
 since: 2017
 call_for_paper_url: https://forms.gle/xbSKUQciKNua4Ekq9
-call_for_paper: true
+call_for_paper: false
 call_for_sponsor: true
 talks_available: false
 schedule_available: false
