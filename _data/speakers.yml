@@ -2,9 +2,66 @@
 # img/conf-name/speaker/file.jpg
 #list:
 #  -
-#    id: sam-bellen
+#    id: 
 #    description:
-#    image: sam-bellen.jpg
-#    first_name: Sam
-#    last_name: Bellen
-#    twitter: sambego
+#    image: 
+#    first_name: 
+#    last_name: 
+#    twitter: 
+
+  -
+    id: ana-cidre
+    description: Ana is a Developer Advocate at Auth0. She has a degree in Fine Arts and a Master in International Business Economics and Management, so she is not your usual software developer. She loves to code and she especially likes Angular. As a very active member of the community, she regularly organises meetups and conferences, like the amazing ngSpain. In Spain, where she’s currently based, she’s an organiser of GDG Vigo and the founder of GalsTech, a group for women in tech from Galicia. Because she is so passionate about diversity, she has also been named a Women Techmaker Ambassador.
+    image: ana-cidre.jpg
+    first_name: Ana 
+    last_name: Cidre
+    twitter: AnaCidre_
+  -
+    id: john-crowson
+    description: John is a Tech Lead at Capital One, building performant Angular and iOS applications that scale to millions of users. He enjoys writing for the NG-Conf blog on Medium and contributing to open source software including NgRx and Angular Material. When he’s not coding, John organizes the iOSDevCampDC conference and scuba dives.
+    image: john-crowson.jpg
+    first_name: John
+    last_name: Crowson
+    twitter: john_crowson     
+  -
+    id: marjorie-figueroa
+    description: 	Frontend Developer from Venezuela, loves Javascript, Accessibility, boardgames and dogs	
+    image: marjorie-figueroa.jpg
+    first_name: Marjorie
+    last_name: Figueroa
+    twitter: stephs1515
+  -
+    id: marta-wisniewska
+    description: Marta is a Google Developer Expert in Angular and Web Technologies from Poland. She is an international speaker, blogger, enthusiast of Angular, PWA, hybrid apps who loves exploring new web features and following hottest trends in tech. Marta is passionate about sharing knowledge in the community and spreading her love for tech. Currently, she satisfies herself as an organizer in Women Techmakers Warsaw and Google Developers Group Warsaw and PWA Fire co-creator.
+    image: marta-wisniewska.jpg
+    first_name: Marta 
+    last_name: Wiśniewska
+    twitter: MartaW_PL
+  -
+    id: maxim-salnikov
+    description: Maxim Salnikov is an Oslo-based cloud and web front-end geek working at Microsoft. He builds web applications since the end of the last century and shares his extensive experience with many aspects of the web platform by speaking/training at developer events around the world. To introduce Angular to the developer community, Maxim is running his own technical events including ngVikings conference, Angular Oslo meetup, and ngCommunity gathering.
+    image: maxim-salnikov.jpg
+    first_name: Maxim
+    last_name: Salnikov
+    twitter: webmaxru
+  -
+    id: natalia-venditto	
+    description: Frontend Tech Lead with a strong focus in Solutions Architecture and Performance, bringing to life high-traffic and high-performance web solutions for large clients across the world. 
+    image: natalia-venditto.jpg
+    first_name: Natalia	
+    last_name: Venditto	
+    twitter: anfibiacreativa
+  -
+    id: sherry-list
+    description: Sherry works as an Azure Developer Technical Lead at Microsoft. For the past 15 years, she has worked as a web developer in 3 different countries. Apart from her everyday job, she is the Chairwoman of Hack Your Future Denmark, a co-organizer of ngCopenhagen and Women Techmakers Meetup groups, and a co-organizer of two angular conferences in Europe: ngVikings and ngSpain. She loves animals and supports various non-profit animal protection organizations and helps out whenever she can.
+    image: sherry-list.jpg
+    first_name: Sherry
+    last_name: List
+    twitter: sherrrylst
+  -
+    id: stefanos-lignos
+    description: Software engineer, Angular Athens meetups Organizer, who loves sharing his knowledge and experiences with the Angular community. When not behind a computer keyboard, most likely behind a piano keyboard.
+    image: stefanos-lignos.jpg
+    first_name: Stefanos
+    last_name: Lignos
+    twitter: stefanos_lig     
