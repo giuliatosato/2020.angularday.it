@@ -10,3 +10,11 @@ list:
     name: AngularOslo
     image: angular-oslo.svg
     site: https://twitter.com/AngularOslo
+  -
+    name: GDG Torino
+    image: gdgto.png
+    site: https://gdgtorino.it/ 
+  -
+    name: AngularAthens
+    image: angular-athens.svg
+    site: https://www.meetup.com/it-IT/Angular-Athens/   
