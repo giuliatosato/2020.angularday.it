@@ -125,7 +125,8 @@
           COMMUNITY
         </div>
         <div class="sponsors__partner">
-          {% for community in site.data.community.list %}
+          {% assign sorted = site.data.community.list | sort: 'name' %}
+          {% for community in sorted %}
           <div class="sponsors__partner-column">
             <a href="{{ community.site }}" title="{{ community.name }}" class="sponsors__link">
               <div style="background-image: url({{ site.baseurl }}/img/angularday/community/{{ community.image }})" class="sponsors__image"></div>

@@ -18,3 +18,13 @@ list:
     name: AngularAthens
     image: angular-athens.svg
     site: https://www.meetup.com/it-IT/Angular-Athens/   
+
+  -
+    name: Gamedev.js
+    image: gamedevjs.svg
+    site: https://gamedevjs.pl/
+
+  -
+    name: js13kGames
+    image: js13kgames.svg
+    site: https://js13kgames.com/
