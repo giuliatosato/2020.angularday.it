@@ -28,3 +28,8 @@ list:
     name: js13kGames
     image: js13kgames.svg
     site: https://js13kgames.com/
+
+  -
+    name: workshops.de
+    image: workshops-de.svg
+    site: https://workshops.de/
