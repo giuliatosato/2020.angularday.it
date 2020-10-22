@@ -38,3 +38,8 @@ list:
     name: JavaScript Kingdom
     image: jsk.svg
     site: https://twitter.com/javascriptking
+
+  -
+    name: devRomagna
+    image: devromagna.svg
+    site: https://devromagna.org/
