@@ -14,9 +14,9 @@ main:
     - Your logo in pre-event communications
     - Your logo on conference website
     - Your logo on conference rollups
-    - Your own rollup in the conference room
-    - Main Stand (table 2m x 1m)
-    - Bring your own gadgets (flyers, stickers, t-shirts)
+    - Your logo displayed on rotation in the lower third throughout the event 
+    - Virtual booth
+    - Your own digital flyer and/or gadget in digital swag bag
     - 5 free tickets
     - 5 tickets with 50% discount
   max: 1
@@ -28,10 +28,10 @@ diamond:
     - Access to opt-in attendees list
     - Your logo in pre-event communications
     - Your logo on conference website
-    - Your logo on conference rollups
-    - Your own rollup in the conference room
-    - Stand (table 2m x 1m)
-    - Bring your own gadgets (flyers, stickers, t-shirts)
+    - Your company mentioned and the logo shown during the opening remarks 
+    - Your logo displayed on rotation in the lower third throughout the event 
+    - Virtual booth
+    - Your own digital flyer and/or gadget in digital swag bag
     - 4 free tickets
     - 5 tickets with 20% discount
   max: 2
@@ -42,10 +42,10 @@ platinum:
   offer:
     - Your logo in pre-event communications
     - Your logo on conference website
-    - Your logo on conference rollups
-    - Your own rollup in the conference room
-    - Stand (table 1m x 1m)
-    - Bring your own gadgets (flyers, stickers, t-shirts)
+    - Your company mentioned and the logo shown during the opening remarks 
+    - Your logo displayed on rotation in the lower third throughout the event 
+    - Virtual booth
+    - Your own digital flyer and/or gadget in digital swag bag
     - 3 free tickets
     - 5 tickets with 15% discount
   max: 4
@@ -59,9 +59,9 @@ gold:
   offer:
     - Your logo in pre-event communications
     - Your logo on conference website
-    - Your logo on conference rollups
-    - Your own rollup in the conference room
-    - Bring your own gadgets (flyers, stickers, t-shirts)
+    - Your company mentioned and the logo shown during the opening remarks 
+    - Your logo displayed on rotation in the lower third throughout the event 
+    - Your own digital flyer and/or gadget in digital swag bag
     - 2 free tickets
     - 3 tickets with 15% discount
   max: 8
@@ -72,8 +72,8 @@ silver:
   offer:
     - Your logo in pre-event communications
     - Your logo on conference website
-    - Your logo on conference rollups
-    - Bring your own gadgets (flyers, stickers, t-shirts)
+    - Your company mentioned and the logo shown during the opening remarks 
+    - Your own digital flyer and/or gadget in digital swag bag
     - 1 free ticket
     - 3 tickets with 10% discount
   max: 16
