@@ -85,12 +85,3 @@ list:
     first_name: Sherry
     last_name: List
     twitter: sherrrylst
-  -
-    id: stefanos-lignos
-    description: >
-      Software engineer, Angular Athens meetups Organizer, who loves sharing his knowledge and experiences with the
-      Angular community. When not behind a computer keyboard, most likely behind a piano keyboard.
-    image: stefanos-lignos.jpg
-    first_name: Stefanos
-    last_name: Lignos
-    twitter: stefanos_lig     
