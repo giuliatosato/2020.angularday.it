@@ -79,16 +79,4 @@
     Come and explore Web VR! I will be taking you from what VR actually is, how it works and why you should consider it,
     to learning how to use Babylon.js to create your own Web VR experiences - And all of this without any previous knowledge needed. 
     Then we will explore how we can add a Web VR project to our own Angular application.
--
-  speaker_id: stefanos-lignos
-  image:
-  keynote: false
-  title: "From BehaviorSubject state management to NgRx"
-  extract: >  
-    Refactoring a codebase is a difficult process, particularly when you want to refactor the backbone of your app which is the code
-    for state management. Are you already struggling with the state management architecture in your codebase and you want to move to NgRx? 
-    In this talk, I’m going to give you a strategy to move an existing application to NgRx effectively and methodically. 
-    I’m going to describe the specific steps which a team has to make in order to make this transition as smooth as possible 
-    and how to overcome the main challenges during this process. 
-    By the end of the presentation, you'll have some tools in your hands in order to start from the day after 
-    the refactoring of your application.
+
