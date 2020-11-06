@@ -25,8 +25,7 @@ list:
   -
     id: john-crowson
     description: >
-      John is a Tech Lead at Capital One, building performant Angular and iOS applications that scale to millions of
-      users. He enjoys writing for the NG-Conf blog on Medium and contributing to open source software including
+      Software Engineer at Apple. He enjoys writing for the NG-Conf blog on Medium and contributing to open source software including
       NgRx and Angular Material. When he’s not coding, John organizes the iOSDevCampDC conference and scuba dives.
     image: john-crowson.jpg
     first_name: John
