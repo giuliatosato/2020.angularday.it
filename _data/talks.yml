@@ -25,19 +25,17 @@
     the @ngrx/store/testing module, giving developers easier ways to test store-dependent components and services. 
     In this session, I will demonstrate testing store-dependent components and services using the NgRx MockStore, 
     which provides the ability to mock the entire state or individual selectors. Say goodbye to the StoreModule!
+    
 -
   speaker_id: marjorie-figueroa
   image:
   keynote: false
-  title: "I got 99 problems but accessibility ain't one"
+  title: "Accessibility, what, why and how?"
   extract: > 
-    Accessibility has come up more and more in the last years.
-    We hear here and there that we need to make things work for certain people and in many occasions we disregard it thinking that we don’t need it 
-    or that it does not apply for our specific case. But the truth is that as developers, business people, designers, etc, 
-    we have the responsibility to provide the best experience for our users no matter how they interact with the world.
-    Accessibility is not only for a few, is not an extra, is something that we need to tackle in every step of the way. 
-    There are many things we can do to ensure that we are not excluding people from using our products and to welcome everyone 
-    in this big world called the web!
+    Providing access to everyone is also part of our job, we create content and put it out there so it makes sense that everyone can use it right? 
+    Sadly this is not the case, the web is filled with unaccessible sites and we need to do something about it. 
+    Accessibility should not be disregarded or forgotten, it should be taken in account on every step of the way! 
+    
 -
   speaker_id: marta-wisniewska
   image:
