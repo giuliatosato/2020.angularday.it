@@ -72,15 +72,15 @@ list:
     first_name: Natalia	
     last_name: Venditto	
     twitter: anfibiacreativa
-  -
-    id: sherry-list
-    description: >
-      Sherry works as an Azure Developer Technical Lead at Microsoft. For the past 15 years, she has worked as a web
-      developer in 3 different countries. Apart from her everyday job, she is the Chairwoman of Hack Your Future
-      Denmark, a co-organizer of ngCopenhagen and Women Techmakers Meetup groups, and a co-organizer of two angular
-      conferences in Europe: ngVikings and ngSpain. She loves animals and supports various non-profit animal protection
-      organizations and helps out whenever she can.
-    image: sherry-list.jpg
-    first_name: Sherry
-    last_name: List
-    twitter: sherrrylst
+#  -
+#    id: sherry-list
+#    description: >
+#      Sherry works as an Azure Developer Technical Lead at Microsoft. For the past 15 years, she has worked as a web
+#      developer in 3 different countries. Apart from her everyday job, she is the Chairwoman of Hack Your Future
+#      Denmark, a co-organizer of ngCopenhagen and Women Techmakers Meetup groups, and a co-organizer of two angular
+#      conferences in Europe: ngVikings and ngSpain. She loves animals and supports various non-profit animal protection
+#      organizations and helps out whenever she can.
+#    image: sherry-list.jpg
+#    first_name: Sherry
+#    last_name: List
+#    twitter: sherrrylst
