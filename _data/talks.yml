@@ -68,13 +68,3 @@
     you need to start from the very architecture design and setup implementation. 
     Let's put together a performant setup by leveraging Angular CLI, budget tools, schematics and monorepo definitions, 
     in order to avoid code repetition, copy pasting, and other foul practices!
--
-  speaker_id: sherry-list
-  image:
-  keynote: false
-  title: "Exploring WebVR"
-  extract: >
-    Come and explore Web VR! I will be taking you from what VR actually is, how it works and why you should consider it,
-    to learning how to use Babylon.js to create your own Web VR experiences - And all of this without any previous knowledge needed. 
-    Then we will explore how we can add a Web VR project to our own Angular application.
-
