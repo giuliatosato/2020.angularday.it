@@ -10,6 +10,15 @@
 #    twitter: 
 list:
   -
+    id: lamis-chebbi
+    description: >
+      Senior Software Engineer
+    image: lamis-chebbi.jpg
+    first_name: Lamis 
+    last_name: Chebbi
+    twitter: LamisChebbi
+
+  -
     id: ana-cidre
     description: >
       Ana is a Developer Advocate at Auth0. She has a degree in Fine Arts and a Master in International Business
