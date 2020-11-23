@@ -4,6 +4,17 @@
 #  keynote: false
 #  title: ""
 #  extract: >
+
+-
+  speaker_id: lamis-chebbi
+  image:
+  keynote: false
+  title: "A deep dive into RxJS WebSocket Subject"
+  extract: > 
+    In this talk I will walk you through the fundamentals and capabilities of the RxJS WebSocket Subject. 
+    How to use it to achieve real time updates using WebSockets? And how to implement the reconnection functionality which is a must in the real time world.
+    Last but not least a demo using Angular 9.
+    
 -
   speaker_id: ana-cidre
   image:
