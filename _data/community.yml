@@ -43,3 +43,33 @@ list:
     name: devRomagna
     image: devromagna.svg
     site: https://devromagna.org/
+
+  -
+    name: GDG Pescara
+    image: gdg-pescara.svg
+    site: https://gdgpescara.it/it/
+
+  -
+    name: GDG VdA
+    image: gdg-vda.svg
+    site: https://www.gdgvda.it
+
+  -
+    name: GDG Bari
+    image: gdg-bari.svg
+    site: https://www.meetup.com/it-IT/GDG-Bari/
+
+  -
+    name: GDG Campobasso
+    image: gdg-campobasso.svg
+    site: https://www.meetup.com/it-IT/GDG-Campobasso/
+
+  -
+    name: GDG Pisa
+    image: gdg-pisa.svg
+    site: https://gdgpisa.it/
+
+  -
+    name: Women Techmakers Italia
+    image: wti.svg
+    site: https://www.womentechmakers.com/
