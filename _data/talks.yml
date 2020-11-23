@@ -30,7 +30,7 @@
   speaker_id: john-crowson
   image:
   keynote: false
-  title: "Testing with MockStore in NgRx 8"
+  title: "Testing with MockStore in NgRx 9"
   extract: > 
     What's new in NgRx testing? Actually, a lot! The two most recent releases of NgRx have quietly introduced and iterated
     the @ngrx/store/testing module, giving developers easier ways to test store-dependent components and services. 
