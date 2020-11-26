@@ -73,3 +73,14 @@ list:
     name: Women Techmakers Italia
     image: wti.svg
     site: https://www.womentechmakers.com/
+
+  -
+    name: GDG Warszaw
+    image: gdg-warsaw.svg
+    site: https://www.meetup.com/it-IT/GDG-Warszawa/
+
+  -
+    name: Women Techmakers Warszaw
+    image: wtm-warsaw.svg
+    site: https://www.womentechmakers.com/
+
