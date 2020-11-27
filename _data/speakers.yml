@@ -73,15 +73,7 @@ list:
     first_name: Maxim
     last_name: Salnikov
     twitter: webmaxru
-  -
-    id: natalia-venditto	
-    description: >
-      Frontend Tech Lead with a strong focus in Solutions Architecture and Performance, bringing to life high-traffic
-      and high-performance web solutions for large clients across the world.
-    image: natalia-venditto.jpg
-    first_name: Natalia	
-    last_name: Venditto	
-    twitter: anfibiacreativa
+
 
   -
     id: marta-wisniewska
