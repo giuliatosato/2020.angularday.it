@@ -50,9 +50,16 @@
   speaker_id: john-papa
   image:
   keynote: true
-  title: "TBA"
+  title: "Deploying Apps to the Cloud At Scale"
   extract: >  
-    TBA 
+    You’ve built an app and you want it to scale. Do you want CI/CD, custom domains, SSL certificates, APIs, global scale of your static assets, authentication, and authorization? And whether your company uses Svelte, Vue, React, Angular or something else entirely, you’ll learn how to build a static web app on Azure and go from GitHub repo to global scale.
+    Here are some of the topics you’ll learn about:
+    • SSL & Custom domains
+    • Authentication/Authorization
+    • Automated build/deploy w/ Github Actions
+    • Preview URLs for staging
+    • Global distribution
+    • APIs powered by Azure Functions
     
 -
   speaker_id: maxim-salnikov
@@ -63,15 +70,6 @@
     There is no need to advocate for progressive web apps anymore.
     The idea of connection-independent applications has proven its viability and we see more and more large and small projects following that path, making the offline-ready behavior a best practice, good manner of the web. In my session, based on the deep exploration of Service Worker API possibilities and gathered UX gotchas, we go through the history of the offline web, the importance of treating the network as an enhancement, current challenges (and their solutions) and proper tooling. We architect our offline-ready Angular app applying the best tech and UX practices adding the features one-by-one: app shell, caching resources and data, sync when online. 
     All in name of our users who demand the new level of the resilient web experience.
--
-  speaker_id: natalia-venditto
-  image:
-  keynote: false
-  title: "Boost your performance from the setup and up!	"
-  extract: >  
-    Performance is more than optimal loading times! What are the metrics keep an eye of, in order to deliver a performant experiences for end users and make it 
-    fun for developers.How do we start a performant app from the get go, or from the very architecture design and setup implementation. 
-    Let's take a look at the latest trends to achieve super fast and performant sites, such as static websites and the many options we have to deploy them online.
 -
   speaker_id: marta-wisniewska
   image:
