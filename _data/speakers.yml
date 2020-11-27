@@ -52,8 +52,8 @@ list:
   -
     id: john-papa
     description: >
-      John Papa is a dedicated father and husband, a professional Web Developer, and avid OSS and community advocate. 
-      He currently is a Developer Advocate for Microsoft and has formerly worked for Disney on several web and mobile applications that you may be using. 
+      John Papa is a dedicated father and husband, a professional Web Developer, and avid OSS and community advocate. He currently is a Cloud Advocate for Microsoft 
+      and has formerly worked for Disney on several web and mobile applications that you may have used.
       His passions are coding and teaching modern web technologies and enjoying everything Disney with his family. 
       John is a co-host of the Real Talk JavaScript podcast, author of the Angular Style Guide, and many popular Pluralsight courses.
     image: john-papa.jpg
@@ -73,15 +73,6 @@ list:
     first_name: Maxim
     last_name: Salnikov
     twitter: webmaxru
-  -
-    id: natalia-venditto	
-    description: >
-      Frontend Tech Lead with a strong focus in Solutions Architecture and Performance, bringing to life high-traffic
-      and high-performance web solutions for large clients across the world.
-    image: natalia-venditto.jpg
-    first_name: Natalia	
-    last_name: Venditto	
-    twitter: anfibiacreativa
 
   -
     id: marta-wisniewska
