@@ -48,18 +48,20 @@ list:
     first_name: Marjorie
     last_name: Figueroa
     twitter: stephs1515
-  -
-    id: marta-wisniewska
+ 
+   -
+    id: john-papa
     description: >
-      Marta is a Google Developer Expert in Angular and Web Technologies from Poland. She is an international speaker,
-      blogger, enthusiast of Angular, PWA, hybrid apps who loves exploring new web features and following hottest trends
-      in tech. Marta is passionate about sharing knowledge in the community and spreading her love for tech. Currently,
-      she satisfies herself as an organizer in Women Techmakers Warsaw and Google Developers Group Warsaw and PWA Fire
-      co-creator.
-    image: marta-wisniewska.jpg
-    first_name: Marta 
-    last_name: Wiśniewska
-    twitter: MartaW_PL
+      John Papa is a dedicated father and husband, a professional Web Developer, and avid OSS and community advocate. 
+      He currently is a Developer Advocate for Microsoft and has formerly worked for Disney on several web and mobile applications that you may be using. 
+      His passions are coding and teaching modern web technologies and enjoying everything Disney with his family. 
+      John is a co-host of the Real Talk JavaScript podcast, author of the Angular Style Guide, and many popular Pluralsight courses.
+    image: john-papa.jpg
+    first_name: John
+    last_name: Papa
+    twitter: John_Papa
+    
+
   -
     id: maxim-salnikov
     description: >
@@ -81,6 +83,20 @@ list:
     first_name: Natalia	
     last_name: Venditto	
     twitter: anfibiacreativa
+
+  -
+    id: marta-wisniewska
+    description: >
+      Marta is a Google Developer Expert in Angular and Web Technologies from Poland. She is an international speaker,
+      blogger, enthusiast of Angular, PWA, hybrid apps who loves exploring new web features and following hottest trends
+      in tech. Marta is passionate about sharing knowledge in the community and spreading her love for tech. Currently,
+      she satisfies herself as an organizer in Women Techmakers Warsaw and Google Developers Group Warsaw and PWA Fire
+      co-creator.
+    image: marta-wisniewska.jpg
+    first_name: Marta 
+    last_name: Wiśniewska
+    twitter: MartaW_PL
+    
 #  -
 #    id: sherry-list
 #    description: >

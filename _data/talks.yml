@@ -46,20 +46,14 @@
     Providing access to everyone is also part of our job, we create content and put it out there so it makes sense that everyone can use it right? 
     Sadly this is not the case, the web is filled with unaccessible sites and we need to do something about it. 
     Accessibility should not be disregarded or forgotten, it should be taken in account on every step of the way! 
-    
 -
-  speaker_id: marta-wisniewska
+  speaker_id: john-papa
   image:
-  keynote: false
-  title: "Supercharge the speed of your app with these PWAs' secrets! ⚡"
-  extract: > 
-    Let’s take a deep dive into PWAs and shift our focus on web performance! In this talk, I will tell you the big secrets on how to improve the speed of your apps
-    with progressive enhancement. We will take a look for some topics like: 
-    -caching strategies and design patterns to maximize PWAs’ performance, 
-    -demystifying the app shell model,
-    -PWAA? -  Progressive Web Assembly Apps - how to make it real?
-    -the most common issues and fixes based on PWAs’ performance tests,
-    -how to keep a progressive style? Tips and tricks for your CSS and assets
+  keynote: true
+  title: "TBA"
+  extract: >  
+    TBA 
+    
 -
   speaker_id: maxim-salnikov
   image:
@@ -75,7 +69,19 @@
   keynote: false
   title: "Boost your performance from the setup and up!	"
   extract: >  
-    Performance is more than optimal loading times! In order to deliver a performant experience for developers and endusers alike,
-    you need to start from the very architecture design and setup implementation. 
-    Let's put together a performant setup by leveraging Angular CLI, budget tools, schematics and monorepo definitions, 
-    in order to avoid code repetition, copy pasting, and other foul practices!
+    Performance is more than optimal loading times! What are the metrics keep an eye of, in order to deliver a performant experiences for end users and make it 
+    fun for developers.How do we start a performant app from the get go, or from the very architecture design and setup implementation. 
+    Let's take a look at the latest trends to achieve super fast and performant sites, such as static websites and the many options we have to deploy them online.
+-
+  speaker_id: marta-wisniewska
+  image:
+  keynote: false
+  title: "Supercharge the speed of your app with these PWAs' secrets! ⚡"
+  extract: > 
+    Let’s take a deep dive into PWAs and shift our focus on web performance! In this talk, I will tell you the big secrets on how to improve the speed of your apps
+    with progressive enhancement. We will take a look for some topics like: 
+    -caching strategies and design patterns to maximize PWAs’ performance, 
+    -demystifying the app shell model,
+    -PWAA? -  Progressive Web Assembly Apps - how to make it real?
+    -the most common issues and fixes based on PWAs’ performance tests,
+    -how to keep a progressive style? Tips and tricks for your CSS and assets    

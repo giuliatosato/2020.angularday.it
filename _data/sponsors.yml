@@ -36,6 +36,13 @@ diamond:
     - 5 tickets with 20% discount
   max: 2
   list:
+    -
+       url: https://www.accenture.com/it-it?utm_source=angularday
+       image: accenture.svg 
+    -
+       url: https://docs.microsoft.com/it-it/learn/?utm_source=angularday
+       image: microsoft.svg
+  
 
 platinum:
   price: € 3,000
