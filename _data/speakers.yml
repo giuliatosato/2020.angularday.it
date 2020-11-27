@@ -49,7 +49,7 @@ list:
     last_name: Figueroa
     twitter: stephs1515
  
-   -
+  -
     id: john-papa
     description: >
       John Papa is a dedicated father and husband, a professional Web Developer, and avid OSS and community advocate. 
@@ -60,7 +60,6 @@ list:
     first_name: John
     last_name: Papa
     twitter: John_Papa
-    
 
   -
     id: maxim-salnikov

@@ -84,3 +84,12 @@ list:
     image: wtm-warsaw.svg
     site: https://www.womentechmakers.com/
 
+  -
+    name: Angular Roma
+    image: angular-roma.svg
+    site: https://www.facebook.com/angularRome/
+
+  -
+    name: PUG Rovigo
+    image: pug-rovigo.svg
+    site: https://rovigo.grusp.org/
