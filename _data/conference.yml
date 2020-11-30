@@ -9,7 +9,7 @@ call_for_paper_url: https://forms.gle/xbSKUQciKNua4Ekq9
 call_for_paper: false
 call_for_sponsor: true
 talks_available: true
-schedule_available: false
+schedule_available: true
 training_available: false
 scholarship_available: true
 

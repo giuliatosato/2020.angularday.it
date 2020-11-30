@@ -4,7 +4,7 @@ title: Schedule
 
 <div class="limit limit--top-margin">
 
-  {% include schedule/intro.html date='June 14th 2019' %}
+  {% include schedule/intro.html date='December 3rd 2020' %}
 
   <div class="schedule" data-dates="1-25,5-12,1-24">
     <table class="schedule__table">
@@ -12,38 +12,32 @@ title: Schedule
         {% include schedule/header.html tracks='1' %}
       </thead>
       <tbody>
-        {% include schedule/event.html time='9:00 - 9:30' title='Check-in' fill='true' %}
-        {% include schedule/event.html time='9:30 - 9:40' title='GrUSP presentation' name='Cesare D\'Amico' fill='true' %}
-        {% include schedule/event.html time='9:40 - 9:50' title='angularday presentation' name='Fabio Biondi' fill='true' %}
+        {% include schedule/event.html time='9:45 - 10:00 CET' title='GrUSP presentation' fill='true' %}
 
         <tr>
-          {% include schedule/talk.html time='9:50 - 10:40' title="Total Guide To Custom Angular Schematics" speaker_id='tomas-trajan' fill='true' %}
-          {% include schedule/talk.html time='10:40 - 11:10' title="Knock knock, who's there? Authenticating your single page apps using JSON Web Tokens" speaker_id='sam-bellen' fill='true' %}
+          {% include schedule/talk.html time='10:00 - 10:45 CET' title="TBA" speaker_id= fill='true' %}
+          {% include schedule/talk.html time='10:45 - 11:30 CET' title="Accessibility, what, why and how?" speaker_id='marjorie-figueroa' fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='11:10 - 11:30' title='Short break' icon="coffee" fill='true' %}
+        {% include schedule/pause.html time='11:30 - 12:00 CET' title='Short break' icon="coffee" fill='true' %}
         <tr>
-          {% include schedule/talk.html time='11:30 - 12:20' title="Offline web applications don't exist anymore!" speaker_id='francesco-leardini' fill='true' %}
-          {% include schedule/talk.html time='12:20 - 12:50' title="Adventures in Node and Nest" speaker_id='zack-chapple' fill='true' %}
+          {% include schedule/talk.html time='12:00 - 12:45 CET' title="Web Components for Authentication: The what, the why and the how" speaker_id='ana-cidre' fill='true' %}
+          {% include schedule/talk.html time='12:45 - 13:30 CET' title="A deep dive into RxJS WebSocket Subject" speaker_id='lamis-chebbi' fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='12:50 - 14:00' title='lunch' icon="food" fill='true' %}
-        {% include schedule/pause.html time='14:00 - 14:40' title='lightning talks' icon="food" fill='true' %}
-
+        {% include schedule/pause.html time='13:30 - 15:00 CET' title='lunch' icon="food" fill='true' %}
         <tr>
-          {% include schedule/talk.html time='14:40 - 15:30' title="To be reactive, that's the answer!" speaker_id='keilla-menezes' fill='true' %}
-          {% include schedule/talk.html time='15:30 - 16:00' title="Elegance of Movement with Reactive Angular Animations" speaker_id='elena-gancheva' fill='true' %}
+          {% include schedule/talk.html time='15:00 - 15:45 CET' title="Supercharge the speed of your app with these PWAs' secrets! ⚡" speaker_id='marta-wisniewska' fill='true' %}
+          {% include schedule/talk.html time='15:45 - 16:30 CET' title="Sending the Angular app into deep, deep offline with Workbox" speaker_id='maxim-salnikov' fill='true' %}
         </tr>
 
-        {% include schedule/pause.html time='16:00 - 16:30' title='Coffee break' icon="coffee" fill='true' fill='true' %}
+        {% include schedule/pause.html time='16:30 - 17:00 CET' title='Coffee break' icon="coffee" fill='true' fill='true' %}
 
         <tr>
-          {% include schedule/talk.html time='16:30 - 17:00' title="Level up your NgRx game" speaker_id='onder-ceylan' fill='true' %}
-          {% include schedule/talk.html time='17:00 - 17:50' title="What's new in 8.0 (live streaming)" speaker_id='stephen-fluin' fill='true' %}
+          {% include schedule/talk.html time='17:00 - 17:45 CET' title="Testing with MockStore in NgRx 9" speaker_id='john-crowson' fill='true' %}
+          {% include schedule/talk.html time='17:45 - 18:30 CET' title="Deploying Apps to the Cloud At Scale" speaker_id='john-papa' fill='true' %}
         </tr>
-
-        {% include schedule/event.html time='17:50 - 18:00' title='Bye bye from GrUSP' fill='true' %}
-        {% include schedule/pause.html time='18:00 - 19:00' title='Happy hour' icon="bar" fill='true' %}
+        {% include schedule/event.html time='18:30 - 18:45' title='Bye bye from GrUSP' fill='true' %}
 
       </tbody>
     </table>
