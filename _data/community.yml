@@ -93,3 +93,28 @@ list:
     name: PUG Rovigo
     image: pug-rovigo.svg
     site: https://rovigo.grusp.org/
+
+  -
+    name: Milano JS
+    image: milano-js.svg
+    site: https://milanojs.com/
+
+  -
+    name: Django Girls Italy
+    image: django-girls-italy.svg
+    site: https://www.facebook.com/djangogirlsIT/
+
+  -
+    name: GDG Catania
+    image: gdg-catania.svg
+    site: https://www.gdgcatania.org/
+
+  -
+    name: GDG Venezia
+    image: gdg-venezia.svg
+    site: https://www.meetup.com/it-IT/GDG-Venezia/
+
+  -
+    name: GDG Cloud Torino
+    image: gdgc-torino.svg
+    site: https://www.meetup.com/it-IT/Google-Cloud-Developer-Community-Torino/
