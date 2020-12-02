@@ -74,6 +74,18 @@ list:
     last_name: Salnikov
     twitter: webmaxru
 
+
+  -
+    id: manfred-steyer
+    description: >
+      Trainer, consultant and programming architect with focus on Angular. 
+      Google Developer Expert (GDE) and Trusted Collaborator in the Angular team who writes for O'Reilly, the German Java Magazine, and windows.developer. 
+      Regularly speaks at conferences.
+    image: manfred-steyer.jpg
+    first_name: Manfred 
+    last_name: Steyer
+    twitter: ManfredSteyer
+
   -
     id: marta-wisniewska
     description: >
